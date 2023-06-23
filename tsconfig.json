@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["ES2017", "ESNext.AsyncIterable"],
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node",
+    "pretty": true,
+    "sourceMap": true,
+    "module": "CommonJS",
+    "outDir": "./build",
+    "noEmit": false,
+    // "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true
+    // "skipLibCheck": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "build", "test"]
+}
